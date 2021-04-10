@@ -7,8 +7,7 @@ html{
     background-color: black;
 }
 
-video#backgroundVideo { 
-    /* filter: blur(6px); */
+#backgroundVideo1 { 
     position: fixed;
     top: 50%;
     left: 50%;
@@ -19,7 +18,39 @@ video#backgroundVideo {
     z-index: -100;
     transform: translateX(-50%) translateY(-50%);
     background-size: cover; 
-    animation: fadeIn 6s;
+    opacity: 0;
+}
+
+#backgroundVideo2 { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: 120%;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover; 
+    opacity: 0;
+}
+
+#backgroundVideo3 { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: 120%;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover; 
+    opacity: 0;
+}
+
+.show {
+    opacity: 1;
 }
 
 @keyframes fadeIn {
