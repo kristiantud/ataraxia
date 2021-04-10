@@ -10,26 +10,27 @@
 
 
         <script>
-            var num = Math.floor(Math.random() * 3);
-            if (num == 0){
-                // play video1
-                $('#backgroundVideo1').animate({ opacity: 1 });
-                console.log(num);
-            } else if (num == 1) {
-                // play video2
-                $('#backgroundVideo2').animate({ opacity: 1 });
-                console.log(num);
-            } else {
-                // play video3
-                $('#backgroundVideo3').animate({ opacity: 1 });
-                console.log(num);
-            }
+
+            window.onload = function () {
+                var num = Math.floor(Math.random() * 4);
+                if (num == 0){
+                    // play mountains
+                    $('#backgroundVideo1').animate({opacity : '1' },4000);
+                } else if (num == 1) {
+                    // play beach
+                    $('#backgroundVideo2').animate({opacity : '1'},4000);
+                    $('.title_content').css({color:'black'});
+                } else if (num == 2){
+                    // play rain
+                    $('#backgroundVideo3').animate({opacity : '1'}, 4000);
+                } else {
+                    // play rain2
+                    $('#backgroundVideo4').animate({opacity : '1'}, 4000);
+                } 
+            };
         </script>
 
     </head>
-
-
-
 
     <body>
         <div class="welcome_panel">
@@ -44,7 +45,7 @@
             </video>
 
             <video autoplay muted loop id="backgroundVideo2">
-                <source src="video_backgrounds/background_fields.mp4" type="video/mp4">
+                <source src="video_backgrounds/background_beach.mp4" type="video/mp4">
                 Your browser does not support HTML5 video.
             </video>
 
@@ -52,6 +53,12 @@
                 <source src="video_backgrounds/background_rain.mp4" type="video/mp4">
                 Your browser does not support HTML5 video.
             </video>
+
+            <video autoplay muted loop id="backgroundVideo4">
+                <source src="video_backgrounds/background_rain2.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+            </video>
+
         </div>
     </body>
 </html>
