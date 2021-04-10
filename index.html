@@ -12,7 +12,7 @@
         <script>
 
             window.onload = function () {
-                var num = Math.floor(Math.random() * 4);
+                var num = Math.floor(Math.random() * 5);
                 if (num == 0){
                     // play mountains
                     $('#backgroundVideo1').animate({opacity : '1' },4000);
@@ -23,10 +23,13 @@
                 } else if (num == 2){
                     // play rain
                     $('#backgroundVideo3').animate({opacity : '1'}, 4000);
-                } else {
+                } else if (num == 3){
                     // play rain2
                     $('#backgroundVideo4').animate({opacity : '1'}, 4000);
-                } 
+                } else {
+                    $('#backgroundVideo5').animate({opacity: '1'}, 4000);
+                    
+                }
             };
         </script>
 
@@ -36,7 +39,7 @@
         <div class="welcome_panel">
             <div class="title_content">
                 <h1 id="title">Ataraxia</h1>
-                <p id="content">(n.) a state of serene calmness.</p>
+                <p id="content">(n.) calmness untroubled by mental or emotional disquiet.</p>
             </div>
             
             <video autoplay muted loop id="backgroundVideo1">
@@ -56,6 +59,11 @@
 
             <video autoplay muted loop id="backgroundVideo4">
                 <source src="video_backgrounds/background_rain2.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+            </video>
+
+            <video autoplay muted loop id="backgroundVideo5">
+                <source src="video_backgrounds/background_waterfall.mp4" type="video/mp4">
                 Your browser does not support HTML5 video.
             </video>
 
