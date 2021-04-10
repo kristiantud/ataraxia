@@ -19,6 +19,17 @@ video#backgroundVideo {
     z-index: -100;
     transform: translateX(-50%) translateY(-50%);
     background-size: cover; 
+    animation: fadeIn 6s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 .title_content{
