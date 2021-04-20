@@ -29,7 +29,6 @@ window.onload = function () {
         $("#background_video source")[0].load();
     } else {
         $('#background_video').animate({opacity : '1' },4000);
-        
         $("#background_video").html('<source src=' + vid5_source  +' type="video/mp4"></source>' );
         $("#background_video source")[0].load();  
     } 
