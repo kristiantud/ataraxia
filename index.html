@@ -2,74 +2,41 @@
 
 <html>
     <head>
+        <title>Ataraxia</title>
         <link rel="stylesheet" href="style.css">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Open+Sans+Condensed:ital,wght@1,300&display=swap" rel="stylesheet">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <title>Ataraxia</title>
-
-
-        <script>
-
-            window.onload = function () {
-                var num = Math.floor(Math.random() * 5);
-                if (num == 0){
-                    // play mountains
-                    $('#backgroundVideo1').animate({opacity : '1' },4000);
-                } else if (num == 1) {
-                    // play beach
-                    $('#backgroundVideo2').animate({opacity : '1'},4000);
-                    $('.title_content').css({color:'black'});
-                    $('.arrow-down').css({borderColor: 'black'});
-                } else if (num == 2){
-                    // play rain
-                    $('#backgroundVideo3').animate({opacity : '1'}, 4000);
-                } else if (num == 3){
-                    // play rain2
-                    $('#backgroundVideo4').animate({opacity : '1'}, 4000);
-                } else {
-                    $('#backgroundVideo5').animate({opacity: '1'}, 4000);
-                    
-                }
-            };
-        </script>
+        <script src="change_background.js"></script>
 
     </head>
 
     <body>
-        <div class="welcome_panel">
-            <div class="title_content">
-                <h1 id="title">Ataraxia</h1>
-                <p id="content">(n.) calmness untroubled by mental or emotional disquiet</p>
 
-                <div class="arrow-down"></div>
+        <div class="div_wrapper">
+            <div class="welcome_panel">
+                <div class="title_content">
+                    <h1 id="title">Ataraxia</h1>
+                    <p id="noun_content">(n.) calmness untroubled by mental or emotional disquiet</p>
+
+                    <div class="arrow-down"></div>
+                </div>
+                
+                <video autoplay muted loop id="background_video">
+                    <source type="video/mp4">
+                    Your browser does not support HTML5 video.
+                </video>
             </div>
-            
-            <video autoplay muted loop id="backgroundVideo1">
-                <source src="video_backgrounds/background_mountains.mp4" type="video/mp4">
-                Your browser does not support HTML5 video.
-            </video>
 
-            <video autoplay muted loop id="backgroundVideo2">
-                <source src="video_backgrounds/background_beach.mp4" type="video/mp4">
-                Your browser does not support HTML5 video.
-            </video>
+            <!-- <div class="body_content">
+                <h1>This is a test</h1>
+                No current items.
+            </div> -->
 
-            <video autoplay muted loop id="backgroundVideo3">
-                <source src="video_backgrounds/background_rain.mp4" type="video/mp4">
-                Your browser does not support HTML5 video.
-            </video>
-
-            <video autoplay muted loop id="backgroundVideo4">
-                <source src="video_backgrounds/background_rain2.mp4" type="video/mp4">
-                Your browser does not support HTML5 video.
-            </video>
-
-            <video autoplay muted loop id="backgroundVideo5">
-                <source src="video_backgrounds/background_waterfall.mp4" type="video/mp4">
-                Your browser does not support HTML5 video.
-            </video>
 
         </div>
+
+
+
     </body>
 </html>
