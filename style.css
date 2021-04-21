@@ -135,3 +135,83 @@ body {
     vertical-align: middle;
      display: table-cell;   
 }
+
+
+
+/* ---------mobile stuff---------- */
+
+@media only screen 
+    and (device-width : 375px) 
+    and (device-height : 812px) 
+    and (-webkit-device-pixel-ratio : 3) { 
+        #background_video { 
+    
+            /* trying paralax */
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            position: fixed;
+            z-index: -100;
+            opacity: 0;
+        
+        
+            /* Set rules to fill background */
+            min-height: 100%;
+            min-width: 100%;
+        
+            /* Set up positioning */
+            top: 0;
+            left: -80vh;
+        }
+
+
+        .title_content{
+            margin-top: 40vh;
+        }
+        #title{
+            font-size: 200px;
+            margin-bottom: -20px;
+        }
+        
+        #noun_content{
+            font-family: 'Open Sans Condensed', sans-serif;
+            font-size: 50px;
+        }
+        
+        .title_content a{
+            color: inherit;
+        }
+        .arrow-down{
+            margin-top: 30vh;
+            position: relative;
+            width: 100%;
+            /* margin: 0 auto; */
+            text-align: center;
+            border-color: white;
+        }
+        
+        .arrow-down::after{
+            content: "";
+            width: 40px;
+            height: 40px;
+            position: absolute;
+            margin: auto;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            border-right: 2px solid;
+            border-bottom: 2px solid;
+            /* -webkit-transform: rotate(45deg); */
+            transform: rotate(45deg);
+            /* -webkit-animation: 3s arrow infinite ease; */
+            animation: 2s arrow infinite ease;
+            
+        }
+        
+
+        .body_content p{
+            font-size: 35px;
+        }
+
+
+    }
