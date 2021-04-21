@@ -12,7 +12,7 @@ body {
 
 
 .welcome_panel{
-    height: 100%;
+    height: 60vh;
     position: relative;
 }
 
@@ -117,12 +117,12 @@ body {
 }
 
 .body_content{
-    position: absolute;
+    position: relative;
     left: 0;
     right: 0;
-    top: 100%;
+    top: 0;
     width: 100%;
-    background-color: #A9A9A9;
+    background-color: #DDDDDD;
     height: auto;
     min-height: 80vh;
     z-index: 1;
@@ -135,6 +135,36 @@ body {
     vertical-align: middle;
      display: table-cell;   
 }
+
+
+.footer_panel{
+    position: relative;
+    height: 150px;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: black;
+    z-index: 1;
+    text-align:center; 
+    
+}
+
+.footer_panel p{
+    color: white;
+    padding-top: 25px;
+}
+
+.footer_panel img{
+    position: relative;
+    top: 25%;
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+}
+
+
+
+
 
 
 
