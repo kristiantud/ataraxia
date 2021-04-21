@@ -191,6 +191,8 @@ body {
             left: -80vh;
         }
 
+        
+
 
         .title_content{
             margin-top: 40vh;
@@ -240,6 +242,18 @@ body {
 
         .body_content p{
             font-size: 15px;
+        }
+
+        .footer_panel img{
+            height: 25px;
+            width: 25px;
+            padding: 5px;
+        }
+
+        .footer_panel p{
+            color: white;
+            padding-top: 30px;
+            font-size: 14px;
         }
     }
 
