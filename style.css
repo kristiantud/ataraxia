@@ -124,6 +124,14 @@ body {
     width: 100%;
     background-color: #A9A9A9;
     height: auto;
-    min-height: 70vh;
+    min-height: 80vh;
     z-index: 1;
+    display: table;
+}
+
+.body_content p{
+    position: relative;
+    text-align:center; 
+    vertical-align: middle;
+     display: table-cell;   
 }
