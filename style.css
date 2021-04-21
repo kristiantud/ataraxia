@@ -138,12 +138,9 @@ body {
 
 
 
-/* ---------mobile stuff---------- */
+/* ---------iPhone X & Galaxy S9---------- */
 
-@media only screen 
-    and (device-width : 375px) 
-    and (device-height : 812px) 
-    and (-webkit-device-pixel-ratio : 3) { 
+@media (min-width: 370px){ 
         #background_video { 
     
             /* trying paralax */
@@ -212,6 +209,8 @@ body {
         .body_content p{
             font-size: 35px;
         }
-
-
     }
+
+
+
+
