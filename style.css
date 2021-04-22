@@ -53,7 +53,6 @@ html{
     left: 0;
     /* font-family: 'Nanum Myeongjo', serif; */
     font-family: 'Playfair Display', serif;
-    color: #b4a5a5;
     text-align: center;
 }
 
@@ -69,12 +68,12 @@ html{
     font-size: 22px;
 }
 
+
 .title_content a{
     color: #b4a5a5;
 }
-
 .title_content a:hover{
-    color: #3c415c;
+    color: white;
 }
 
 .scroll_down{
@@ -149,7 +148,7 @@ html{
 
 .body_title{
     font-family: 'Playfair Display', serif;
-    font-size: 30px;
+    font-size: 40px;
     color: #b4a5a5;
     text-align: center;
     padding-top: 60px;
@@ -161,9 +160,12 @@ html{
     text-align:center; 
 }
 
+
 .card-body{
     text-align:center;
     color: #151515;
+    background-color: #b4a5a5;
+    /* opacity: 0.5; */
 }
 .card-body h5{
     font-family: 'Playfair Display', serif;
@@ -177,6 +179,38 @@ html{
     font-size: 17px;
     
 }
+
+
+
+
+.date-and-img{
+    position:relative;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    color: #151515;
+}
+.date-and-img img{
+    opacity: 0.4;
+}
+
+.date-and-img p{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* to center */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 80px;
+}
+
+/* .date:hover{
+    color: #b4a5a5;
+} */
+
 
 .posts_flexbox{
     flex-wrap: wrap;
@@ -203,6 +237,10 @@ html{
 .posts_flexbox .card:hover {
     transform: scale(1.1);
     background-color: #3c415c;
+}
+
+.posts_flexbox .card:hover > .date-and-img p {
+    color: #b4a5a5;
 }
 
 
