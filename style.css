@@ -1,7 +1,7 @@
 
 html{
     scroll-behavior: smooth;
-    background-color: black;
+    background-color: #151515;
 }
 
 
@@ -9,7 +9,7 @@ html{
 
 
 .welcome_panel{
-    background-color: black;
+    background-color: #151515;
     height: 60vh;
     position: relative;
     z-index: 1;
@@ -53,7 +53,7 @@ html{
     left: 0;
     /* font-family: 'Nanum Myeongjo', serif; */
     font-family: 'Playfair Display', serif;
-    color: white;
+    color: #b4a5a5;
     text-align: center;
 }
 
@@ -70,7 +70,11 @@ html{
 }
 
 .title_content a{
-    color: inherit;
+    color: #b4a5a5;
+}
+
+.title_content a:hover{
+    color: #3c415c;
 }
 
 .scroll_down{
@@ -137,7 +141,7 @@ html{
     right: 0;
     top: 0;
     width: 100%;
-    background-color: black;
+    background-color: #151515;
     height: auto;
     
     z-index: 1;
@@ -146,7 +150,7 @@ html{
 .body_title{
     font-family: 'Playfair Display', serif;
     font-size: 30px;
-    color: white;
+    color: #b4a5a5;
     text-align: center;
     padding-top: 60px;
     padding-bottom: 60px;
@@ -159,34 +163,46 @@ html{
 
 .card-body{
     text-align:center;
+    color: #151515;
 }
 .card-body h5{
     font-family: 'Playfair Display', serif;
     font-weight:bolder;
     font-size: 40px;
+    
 }
 
 .card-body p{
     font-family: 'Martel Sans', sans-serif;
     font-size: 17px;
+    
 }
 
 .posts_flexbox{
     flex-wrap: wrap;
     display: flex;
     justify-content: center;
-    margin-left: 15%;
-    margin-right: 15%;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
- .card {
+ .posts_flexbox .card {
     margin: 0 30px 60px 30px;
-    transition: transform .1s;
+    transition: transform .05s;
+    background-color: #b4a5a5;
     
 } 
 
+.posts_flexbox a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
 .posts_flexbox .card:hover {
     transform: scale(1.1);
+    background-color: #3c415c;
 }
 
 
@@ -199,7 +215,7 @@ html{
     height: 150px;
     left: 0;
     right: 0;
-    background-color: #141f1f;
+    background-color: #3c415c;
     z-index: 1;
     text-align:center; 
     
@@ -207,7 +223,7 @@ html{
 
 .footer_panel p{
     font-family: 'Martel Sans', sans-serif;
-    color:white;
+    color:#b4a5a5;
     padding-top: 2.5%;
 }
 
@@ -265,6 +281,14 @@ html{
             font-family: 'Martel Sans', sans-serif;
             font-size: 17px;
         }
+
+        .scroll_down{
+            font-family: 'Martel Sans', sans-serif;
+            font-size: 15px;
+            text-align: center;
+            margin-top: 24vh;
+            
+        }
         
         .scroll_down a{
             color: inherit;
@@ -277,7 +301,7 @@ html{
             width: 100%;
             /* margin: 0 auto; */
             text-align: center;
-            border-color: white;
+            border-color: #b4a5a5;
         }
         
         .arrow-down::after{
@@ -321,7 +345,7 @@ html{
 
         .footer_panel p{
             font-family: 'Martel Sans', sans-serif;
-            color:white;
+            color:#b4a5a5;
             padding-top: 13%;
             font-size: 15px;
         }
