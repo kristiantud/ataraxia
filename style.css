@@ -6,7 +6,6 @@ html{
 
 body {
     background-color: black;
-    margin: 0;
 }
 
 
@@ -59,7 +58,7 @@ body {
 
 #title{
     font-size: 90px;
-    margin-bottom: -20px;
+    
 }
 
 #noun_content{
@@ -122,19 +121,53 @@ body {
     right: 0;
     top: 0;
     width: 100%;
-    background-color: #DDDDDD;
+    background-color: black;
     height: auto;
-    min-height: 80vh;
+    
     z-index: 1;
-    display: table;
+}
+
+.body_title{
+    font-family: 'Nanum Myeongjo', serif;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .body_content p{
     position: relative;
     text-align:center; 
-    vertical-align: middle;
-     display: table-cell;   
 }
+
+.card-body{
+    text-align:center;
+}
+.card-body h5{
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight:bolder;
+    font-size: 40px;
+}
+
+.card-body p{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+}
+
+.posts_flexbox{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+ .card {
+    margin: 0 30px 60px 30px;
+} 
+
+
 
 
 .footer_panel{
@@ -142,15 +175,14 @@ body {
     height: 150px;
     left: 0;
     right: 0;
-    top: 0;
-    background-color: black;
+    background-color: #141f1f;
     z-index: 1;
     text-align:center; 
     
 }
 
 .footer_panel p{
-    color: white;
+    color:white;
     padding-top: 25px;
 }
 
@@ -161,6 +193,7 @@ body {
     width: 30px;
     padding: 5px;
 }
+
 
 
 

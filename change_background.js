@@ -11,6 +11,7 @@ window.onload = function () {
         $('#background_video').animate({opacity : '1' },2000);
         $("#background_video").html('<source src=' + vid1_source  +' type="video/mp4"></source>' );
         $("#background_video source")[0].load();
+       
     } else if (num == 1) {
         // play beach
         $('#background_video').animate({opacity : '1' },2000);
@@ -18,25 +19,30 @@ window.onload = function () {
         $('.title_content').css({color:'black'});
         $('.arrow-down').css({borderColor: 'black'});
         $("#background_video source")[0].load();
+        
     } else if (num == 2){
         // play rain
         $('#background_video').animate({opacity : '1' },2000);
         $("#background_video").html('<source src=' + vid3_source  +' type="video/mp4"></source>' );
         $("#background_video source")[0].load();
+       
     } else if (num == 3){
         // play rain2
         $('#background_video').animate({opacity : '1' },2000);
         $("#background_video").html('<source src=' + vid4_source  +' type="video/mp4"></source>' );
         $("#background_video source")[0].load();
+        
     } else if (num == 4) {
         // play waterfall
         $('#background_video').animate({opacity : '1' },2000);
         $("#background_video").html('<source src=' + vid5_source  +' type="video/mp4"></source>' );
         $("#background_video source")[0].load();  
+       
     } else {
         // play lake
         $('#background_video').animate({opacity : '1' },2000);
         $("#background_video").html('<source src=' + vid6_source  +' type="video/mp4"></source>' );
         $("#background_video source")[0].load();  
+        
     }
 };
