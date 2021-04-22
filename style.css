@@ -1,18 +1,18 @@
 
 html{
     scroll-behavior: smooth;
-}
-
-
-body {
     background-color: black;
 }
 
 
 
+
+
 .welcome_panel{
+    background-color: black;
     height: 60vh;
     position: relative;
+    z-index: 1;
 }
 
 
@@ -51,26 +51,42 @@ body {
     position: relative;
     margin-top: 40vh;
     left: 0;
-    font-family: 'Nanum Myeongjo', serif;
+    /* font-family: 'Nanum Myeongjo', serif; */
+    font-family: 'Playfair Display', serif;
     color: white;
     text-align: center;
 }
 
 #title{
     font-size: 90px;
+    /* margin-bottom: -10px; */
     
 }
 
 #noun_content{
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Martel Sans', sans-serif;
+    /* font-family: 'Open Sans Condensed', sans-serif; */
     font-size: 22px;
 }
 
 .title_content a{
     color: inherit;
 }
-.arrow-down{
+
+.scroll_down{
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 15px;
+    text-align: center;
     margin-top: 30vh;
+    
+}
+.scroll_down a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.arrow-down{
+    margin-top: -1.5vh;
     position: relative;
     width: 100%;
     /* margin: 0 auto; */
@@ -99,7 +115,7 @@ body {
 
 @-webkit-keyframes arrow{
     0%, 100% {
-        top: 50px;
+        top: 55px;
     }
     50%{
         top: 80px;
@@ -108,7 +124,7 @@ body {
 
 @keyframes arrow{
     0%, 100% {
-        top: 40px;
+        top: 55px;
     }
     50%{
         top: 80px;
@@ -128,7 +144,7 @@ body {
 }
 
 .body_title{
-    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Playfair Display', serif;
     font-size: 30px;
     color: white;
     text-align: center;
@@ -145,14 +161,14 @@ body {
     text-align:center;
 }
 .card-body h5{
-    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Playfair Display', serif;
     font-weight:bolder;
     font-size: 40px;
 }
 
 .card-body p{
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 20px;
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 17px;
 }
 
 .posts_flexbox{
@@ -165,7 +181,15 @@ body {
 
  .card {
     margin: 0 30px 60px 30px;
+    transition: transform .1s;
+    
 } 
+
+.posts_flexbox .card:hover {
+    transform: scale(1.1);
+}
+
+
 
 
 
@@ -182,15 +206,16 @@ body {
 }
 
 .footer_panel p{
+    font-family: 'Martel Sans', sans-serif;
     color:white;
-    padding-top: 25px;
+    padding-top: 2.5%;
 }
 
 .footer_panel img{
     position: relative;
     top: 25%;
-    height: 30px;
-    width: 30px;
+    height: 33px;
+    width: 33px;
     padding: 5px;
 }
 
@@ -237,15 +262,17 @@ body {
         
         #noun_content{
             margin-top: 30px;
-            font-family: 'Open Sans Condensed', sans-serif;
+            font-family: 'Martel Sans', sans-serif;
             font-size: 17px;
         }
         
-        .title_content a{
+        .scroll_down a{
             color: inherit;
+            text-decoration: none;
         }
+
         .arrow-down{
-            margin-top: 20vh;
+            margin-top: -1.5vh;
             position: relative;
             width: 100%;
             /* margin: 0 auto; */
@@ -277,16 +304,26 @@ body {
             font-size: 15px;
         }
 
+        .card-body h5{
+            font-size: 30px;
+        }
+        
+        .card-body p{
+            font-family: 'Martel Sans', sans-serif;
+            font-size: 14px;
+        }
+
         .footer_panel img{
-            height: 25px;
-            width: 25px;
+            height: 30px;
+            width: 30px;
             padding: 5px;
         }
 
         .footer_panel p{
-            color: white;
-            padding-top: 30px;
-            font-size: 14px;
+            font-family: 'Martel Sans', sans-serif;
+            color:white;
+            padding-top: 13%;
+            font-size: 15px;
         }
     }
 
