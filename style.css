@@ -147,10 +147,10 @@ html{
 }
 
 .body_title{
-    font-family: 'Playfair Display', serif;
+    /* font-family: 'Playfair Display', serif;
     font-size: 40px;
     color: #cdd4db;
-    text-align: center;
+    text-align: center; */
     padding-top: 60px;
     padding-bottom: 60px;
 }
@@ -166,6 +166,12 @@ html{
     color: #010812;
     background-color: #44586a;
     /* opacity: 0.5; */
+}
+
+.card-subtitle{
+    font-family: 'Open Sans Condensed', sans-serif;
+
+
 }
 .card-body h5{
     font-family: 'Playfair Display', serif;
@@ -187,13 +193,13 @@ html{
     position:relative;
     text-align: center;
     font-family: 'Playfair Display', serif;
-    color: #a2b4c3;
+    color: white;
 }
 .date-and-img img{
     opacity: 0.4;
 }
 
-.date-and-img p{
+.date-and-img .card_title{
     position: absolute;
     top: 0;
     left: 0;
@@ -204,8 +210,21 @@ html{
     justify-content: center;
     align-items: center;
 
-    font-size: 80px;
+    font-size: 40px;
 }
+
+.date-and-img .read_indication{
+    position: absolute;
+    top: 60%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-family: 'Martel Sans', sans-serif;
+    /* font-family: 'Open Sans Condensed', sans-serif; */
+    font-size: 10px;
+
+}
+
 
 /* .date:hover{
     color: #b4a5a5;
@@ -390,6 +409,7 @@ html{
         .body_content p{
             font-size: 15px;
         }
+
 
         .card-body h5{
             font-size: 30px;
