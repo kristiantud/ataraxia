@@ -10,15 +10,15 @@ window.onload = function () {
         // play mountains
         $('#background_video').animate({opacity : '1' },2000);
         $("#background_video").html('<source src=' + vid1_source  +' type="video/mp4"></source>' );
-        $('.title_content').css({color:'#151515'}); 
-        $('.title_content .scroll_down').css({color: '#b4a5a5'});
+        $('.title_content').css({color:'#010812'}); 
+        $('.title_content .scroll_down').css({color: '#cdd4db'});
         // $("#background_video source")[0].load();      
         
     } else if (num == 1) {
         // play beach
         $('#background_video').animate({opacity : '1' },2000);
         $("#background_video").html('<source src=' + vid2_source  +' type="video/mp4"></source>' );
-        $('.title_content').css({color:'#151515'});
+        $('.title_content').css({color:'#010812'});
         // $('.arrow-down').css({borderColor: '#151515'});
         // $("#background_video source")[0].load();
         
@@ -26,30 +26,30 @@ window.onload = function () {
         // play waters
         $('#background_video').animate({opacity : '1' },2000);
         $("#background_video").html('<source src=' + vid3_source  +' type="video/mp4"></source>' );
-        $('.title_content').css({color:'#151515'}); 
-        $('.title_content .scroll_down').css({color: '#b4a5a5'});
+        $('.title_content').css({color:'#010812'}); 
+        $('.title_content .scroll_down').css({color: '#cdd4db'});
         // $("#background_video source")[0].load();
        
     } else if (num == 3){
         // play rain2
         $('#background_video').animate({opacity : '1' },2000);
         $("#background_video").html('<source src=' + vid4_source  +' type="video/mp4"></source>' );
-        $('.title_content').css({color:'#b4a5a5'}); 
+        $('.title_content').css({color:'#cdd4db'}); 
         // $("#background_video source")[0].load();
         
     } else if (num == 4) {
         // play waterfall
         $('#background_video').animate({opacity : '1' },2000);
         $("#background_video").html('<source src=' + vid5_source  +' type="video/mp4"></source>' );
-        $('.title_content').css({color:'#151515'}); 
-        $('.title_content .scroll_down').css({color: '#b4a5a5'});
+        $('.title_content').css({color:'#010812'}); 
+        $('.title_content .scroll_down').css({color: '#cdd4db'});
         // $("#background_video source")[0].load();  
        
     } else {
         // play lake
         $('#background_video').animate({opacity : '1' },2000);
         $("#background_video").html('<source src=' + vid6_source  +' type="video/mp4"></source>' );
-        $('.title_content').css({color:'#b4a5a5'}); 
+        $('.title_content').css({color:'#cdd4db'}); 
         // $("#background_video source")[0].load();  
         
     }
