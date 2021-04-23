@@ -349,7 +349,7 @@ html{
             font-family: 'Martel Sans', sans-serif;
             font-size: 15px;
             text-align: center;
-            margin-top: 24vh;
+            margin-top: 19vh;
             
         }
         
@@ -400,6 +400,10 @@ html{
             font-size: 14px;
         }
 
+        .date-and-img p{
+            font-size: 75px;
+        }
+
         .footer_panel img{
             height: 30px;
             width: 30px;
@@ -407,10 +411,7 @@ html{
         }
 
         .footer_panel p{
-            font-family: 'Martel Sans', sans-serif;
-            color:#b4a5a5;
-            padding-top: 13%;
-            font-size: 15px;
+            font-size: 18px;
         }
     }
 
