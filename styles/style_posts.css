@@ -7,6 +7,25 @@ html{
 
 body{
     background-color: #010812;
+    font-family: 'Inconsolata', monospace;
+}
+
+.post_header{
+    margin-top: 2vh;
+    color: white;
+    text-align: center;
+}
+
+.post_header p{
+    font-style: italic;
+    font-size: 18px;
+}
+
+.post_content {
+    margin-left: 15%;
+    margin-right: 15%;
+    color: white;
+    text-align: center;
 }
 
 
