@@ -5,7 +5,7 @@ window.onload = function () {
     var vid3_source = "video_backgrounds/background_waters.mp4";
     var vid4_source = "video_backgrounds/background_rain2.mp4";
     var vid5_source = "video_backgrounds/background_waterfall.mp4";
-    var vid6_source = "video_backgrounds/background_ladysunset.mp4";
+    var vid6_source = "video_backgrounds/background_fieldrain.mp4";
     if (num == 0){
         // play mountains
         $('#background_video').animate({opacity : '1' },2000);
@@ -46,10 +46,10 @@ window.onload = function () {
         // $("#background_video source")[0].load();  
        
     } else {
-        // play lake
+        // play window
         $('#background_video').animate({opacity : '1' },2000);
         $("#background_video").html('<source src=' + vid6_source  +' type="video/mp4"></source>' );
-        $('.title_content').css({color:'#cdd4db'}); 
+        $('.title_content').css({color:'#010812'}); 
         // $("#background_video source")[0].load();  
         
     }
