@@ -10,13 +10,28 @@ body{
     font-family: 'Inconsolata', monospace;
 }
 
+
+.back_to_home{
+    margin-left: 10%;
+    padding-top: 2%;
+}
+
+.back_to_home a{
+    color: white;
+    text-decoration: none;
+}
+
+.back_to_home a:hover{
+    color: gray;
+}
+
 .post_background{
     background-color: white;
     opacity: 70%;
-    margin-top: 3%;
+    margin-top: 2%;
     margin-left: 10%;
     margin-right: 10%;
-    margin-bottom: 3%;
+    margin-bottom: 2%;
 }
 
 .post_header{
