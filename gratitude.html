@@ -21,10 +21,10 @@
     </head>
 
     <body>
-        <!-- <script>AOS.init({
+        <script>AOS.init({
             easing: 'ease-out-back',
             duration: 1000
-        });</script> -->
+        });</script>
 
         <div class="div_wrapper">
             <div class="back_to_home"> 
@@ -33,7 +33,7 @@
                 </a>
             </div>
             <div class="post_background">
-                <div class="post_header">
+                <div data-aos="fade-up" class="post_header">
                     <h1>Gratitude</h1>
                     <p>(n.) the state of being thankful</p>
                     <p style="font-size: 14px; font-style: normal;">4:34 A.M. - 5/3/2021</p>
@@ -41,22 +41,22 @@
                 </div>
 
                 <div class="post_content">
-                    <img src="post_images/pbd.jpg">
-                    <p style="padding-top: 30px;
-                            font-style: italic;
-                            font-size: 16px;
-                            margin-left: 20%; 
-                            margin-right: 20%;">
-                        "Look again at that dot. That's there. That's home. That's us. On it, everyone you love, everyone
-                        you know, everyone you ever heard of, every human being who ever was, lived out their lives. The aggregate
-                        of our joy and suffering, thousands of confident religions, ideologies, and economic doctrines, every hunter and forager,
-                        every hero and coward, every creator and destroyer of civilization, every king and peasant, every young couple in love,
-                        every mother and father, hopeful child, inventor and explorer, every teacher of morals, every corrupt politician, every 'superstar',
-                        every 'supreme leader', every saint and sinner in the history of our species lived there - on a mote of dust suspended in a sunbeam."
-                        <br> 
-                        - Carl Sagan
-                    </p>
-                    <br>
+                    <div data-aos="fade-up" data-aos-delay="500" class="post_opening">
+                        <img src="post_images/pbd.jpg">
+                        <p>
+                            "Look again at that dot. That's there. That's home. That's us. On it, everyone you love, everyone
+                            you know, everyone you ever heard of, every human being who ever was, lived out their lives. The aggregate
+                            of our joy and suffering, thousands of confident religions, ideologies, and economic doctrines, every hunter and forager,
+                            every hero and coward, every creator and destroyer of civilization, every king and peasant, every young couple in love,
+                            every mother and father, hopeful child, inventor and explorer, every teacher of morals, every corrupt politician, every 'superstar',
+                            every 'supreme leader', every saint and sinner in the history of our species lived there - on a mote of dust suspended in a sunbeam."
+                            <br> 
+                            - Carl Sagan
+                        </p>
+                    </div>
+                    
+                    <div data-aos="fade-up" class="post_body">
+                        <br>
                     <p>--</p>
                     <br>
                     <p>
@@ -116,9 +116,7 @@
                         <br>
                         - Friedrich Nietzsche
                     </p>
-                    
-                    
-                
+                    </div>
                 </div>
             </div>
         </div>

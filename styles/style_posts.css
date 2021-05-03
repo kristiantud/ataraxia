@@ -45,6 +45,17 @@ body{
     font-size: 18px;
 }
 
+.post_opening{
+    font-style: italic;
+    font-size: 16px;
+    margin-left: 20%; 
+    margin-right: 20%;
+}
+
+.post_opening p{
+    padding-top: 30px;
+}
+
 .post_content {
     font-size: 20px;
     margin-left: 15%;
@@ -64,7 +75,31 @@ body{
 
 
 
+@media (max-width: 400px){ 
+    .post_background{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    .post_header p{
+        font-size: 16px;
+    }
 
+    .post_opening{
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    .post_opening img{
+        width: 100%;
+    }
+
+    .post_content{
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 20px;
+    }
+
+}
 
 
 
