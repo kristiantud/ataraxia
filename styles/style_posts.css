@@ -10,9 +10,18 @@ body{
     font-family: 'Inconsolata', monospace;
 }
 
+.post_background{
+    background-color: white;
+    opacity: 30%;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+
 .post_header{
-    margin-top: 2vh;
-    color: white;
+    padding-top: 5vh;
+    color: black;
     text-align: center;
 }
 
@@ -22,10 +31,15 @@ body{
 }
 
 .post_content {
+    font-size: 20px;
     margin-left: 15%;
     margin-right: 15%;
-    color: white;
+    color: black;
     text-align: center;
+}
+
+.post_content img{
+    width: 50%;
 }
 
 
