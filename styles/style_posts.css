@@ -41,7 +41,7 @@ body{
 }
 
 .post_background{
-    background-color: #010812;
+    background-color: darkgray   ;
     /* opacity: 90%; */
     margin-top: 2%;
     margin-left: 10%;
@@ -51,7 +51,7 @@ body{
 
 .post_header{
     padding-top: 5vh;
-    color: white;
+    color: black;
     text-align: center;
 }
 
@@ -75,7 +75,7 @@ body{
     font-size: 20px;
     margin-left: 15%;
     margin-right: 15%;
-    color: white;
+    color: black;
     text-align: center;
 }
 

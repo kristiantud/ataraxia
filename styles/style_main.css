@@ -330,7 +330,7 @@ body{
 
 /* ---------iPhone X & Galaxy S9---------- */
 
-@media (max-width: 400px){ 
+@media (max-width: 414px){ 
         #background_video { 
     
             /* trying paralax */
@@ -358,14 +358,14 @@ body{
             padding-top: 30vh;
         }
         #title{
-            font-size: 40px;
+            font-size: 60px;
             margin-bottom: -20px;
         }
         
         #noun_content{
             margin-top: 30px;
             font-family: 'Martel Sans', sans-serif;
-            font-size: 17px;
+            font-size: 15px;
         }
 
         .scroll_down{
