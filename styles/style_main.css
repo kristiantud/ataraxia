@@ -258,7 +258,7 @@ body{
 
 
 .posts_flexbox .card:hover {
-    transform: scale(1.1);
+    /* transform: scale(1); */
     background-color: #a2b4c3;
 }
 

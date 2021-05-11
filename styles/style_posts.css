@@ -41,7 +41,7 @@ body{
 }
 
 .post_background{
-    background-color: darkgray   ;
+    background-color: #010812   ;
     /* opacity: 90%; */
     margin-top: 2%;
     margin-left: 10%;
@@ -51,7 +51,7 @@ body{
 
 .post_header{
     padding-top: 5vh;
-    color: black;
+    color: white;
     text-align: center;
 }
 
@@ -69,18 +69,20 @@ body{
 
 .post_opening p{
     padding-top: 30px;
+
 }
 
 .post_content {
     font-size: 20px;
     margin-left: 15%;
     margin-right: 15%;
-    color: black;
+    color: white;
     text-align: center;
 }
 
 .post_content img{
     width: 90%;
+    border: 2px solid white;
 }
 
 
