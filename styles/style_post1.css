@@ -1,0 +1,128 @@
+
+html{
+    scroll-behavior: smooth;
+    
+}
+
+
+body{
+    background-color: #010812;
+    font-family: 'Inconsolata', monospace;
+}
+
+#background_img{
+    position: fixed;
+    /* Set rules to fill background */
+    width: 100%;
+
+    /* Set up positioning */
+    top: 0;
+    left: 0;
+
+    z-index: -100;
+}
+
+
+
+
+.back_to_home{
+    margin-left: 10%;
+    padding-top: 2%;
+}
+
+.back_to_home a{
+    color: white;
+    text-decoration: none;
+}
+
+.back_to_home a:hover{
+    color: gray;
+}
+
+.post_background{
+    background-color: #141414   ;
+    /* opacity: 90%; */
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 2%;
+}
+
+.post_header{
+    padding-top: 5vh;
+    color: white;
+    text-align: center;
+}
+
+.post_header p{
+    font-style: italic;
+    font-size: 18px;
+}
+
+.post_opening{
+    font-style: italic;
+    font-size: 16px;
+    margin-left: 20%; 
+    margin-right: 20%;
+}
+
+.post_opening p{
+    padding-top: 30px;
+
+}
+
+.post_content {
+    font-size: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    color: white;
+    text-align: justify;
+    
+}
+
+.post_content img{
+    width: 100%;
+    border: 2px solid white;
+}
+
+
+
+
+@media (max-width: 400px){ 
+    .post_background{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    .post_header p{
+        font-size: 16px;
+    }
+
+    .post_opening{
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    .post_opening img{
+        width: 100%;
+    }
+
+    .post_content{
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 20px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

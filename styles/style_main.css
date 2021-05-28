@@ -144,19 +144,20 @@ body{
     right: 0;
     top: 0;
     width: 100%;
-    background-color: #0b212f;
+    background-color: #141414;
     height: auto;
     
     z-index: 1;
 }
 
 .body_title{
-    /* font-family: 'Playfair Display', serif;
-    font-size: 40px;
-    color: #cdd4db;
-    text-align: center; */
+    font-family: 'Inconsolata', monospace;
+    font-size: 16px;
+    color: white;
+    text-align: center;
     padding-top: 60px;
     padding-bottom: 60px;
+    
 }
 
 .body_content p{
@@ -168,12 +169,15 @@ body{
 .card-body{
     text-align:center;
     color: #010812;
-    background-color: #44586a;
+    background-color: #424343;
     /* opacity: 0.5; */
 }
 
-.card-subtitle{
+.card-body .card-subtitle{
     font-family: 'Open Sans Condensed', sans-serif;
+    color: #A5A5A4;
+    padding-bottom: 5px;
+    
 
 
 }
@@ -247,7 +251,7 @@ body{
  .posts_flexbox .card {
     margin: 0 30px 60px 30px;
     transition: transform .05s;
-    background-color: #44586a;
+    background-color: #141414;
     
 } 
 
@@ -258,16 +262,21 @@ body{
 
 
 .posts_flexbox .card:hover {
-    /* transform: scale(1); */
-    background-color: #a2b4c3;
+    transform: scale(1.1);
+    background-color: #858584;
 }
 
-.posts_flexbox .card:hover > .date-and-img p {
+.posts_flexbox .card:hover > .date-and-img p{
     color: #010812;
 }
 .posts_flexbox .card:hover > .card-body{
-    background-color: #a2b4c3;
+    background-color: #858584;
 }
+
+.posts_flexbox .card:hover > .card-body .card-subtitle{
+    color: #1D1C1D;
+}
+
 
 .closing-space{
     position: relative;
@@ -292,7 +301,7 @@ body{
     height: 125px;
     left: 0;
     right: 0;
-    background-color: #010812;
+    background-color: #080808;
     z-index: 1;
     text-align:center; 
     
@@ -408,6 +417,9 @@ body{
             
         }
         
+        .body_title{
+            font-size: 15px;
+        }
 
         .body_content p{
             font-size: 15px;
