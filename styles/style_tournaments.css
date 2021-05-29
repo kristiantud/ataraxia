@@ -1,0 +1,14 @@
+
+
+#background_img{
+    position: fixed;
+    /* Set rules to fill background */
+    max-width: 100%;
+    max-height: 100%;
+
+    /* Set up positioning */
+    top: 0;
+    left: 0;
+
+    z-index: -100;
+}
