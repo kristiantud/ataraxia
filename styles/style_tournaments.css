@@ -95,7 +95,7 @@ body{
 }
 
 .posts_flexbox div{
-    padding: 2%;
+    padding: 1.5%;
 }
 
 #card_4 h1{
@@ -121,7 +121,7 @@ body{
     }
 
     .posts_flexbox div{
-        padding-bottom: 10%;
+        margin-bottom: 7%;
     }
 
     .card{
@@ -131,5 +131,13 @@ body{
     .post_background{
         margin-left: 4%;
         margin-right: 4%;
+    }
+
+    .posts_flexbox .card-body{
+        margin-bottom: 0%;
+    }
+
+    .posts_flexbox .top_content{
+        margin-bottom: 0%;
     }
 }
