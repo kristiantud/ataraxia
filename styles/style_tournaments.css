@@ -1,14 +1,102 @@
+body{
+    font-family: 'Inconsolata', monospace;
+}
+
+
 
 
 #background_img{
     position: fixed;
     /* Set rules to fill background */
-    max-width: 100%;
-    max-height: 100%;
+    min-width: 100%;
+    min-height: 100%;
 
     /* Set up positioning */
     top: 0;
     left: 0;
 
     z-index: -100;
+}
+
+.back_to_home{
+    margin-left: 5%;
+    padding-top: 2%;
+    font-family: 'Inconsolata', monospace;
+}
+
+.back_to_home a{
+    color: white;
+    text-decoration: none;
+}
+
+.back_to_home a:hover{
+    color: gray;
+}
+
+.post_background{
+    background-color: black;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: auto;
+}
+
+#tournament_header{
+    padding-top: 3%;
+    text-align: center;
+    color: #C0C0C0;
+    padding-bottom: 3%;
+}
+
+
+.posts_flexbox{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 5%;
+}
+
+#card_1,#card_2,#card_3{
+    background-color: #2ECC71;
+}
+#card_4{
+    background-color: #5DADE2;
+}
+
+
+
+.top_content{
+    position: relative;
+    background-color: #141414;
+}
+
+.top_content img{
+    opacity: 0.3;
+}
+
+#card_placement{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* to center */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 100px;
+    color: #2ECC71;
+}
+
+.posts_flexbox div{
+    padding: 2%;
+}
+
+#card_4 h1{
+    color: #5DADE2;
 }
