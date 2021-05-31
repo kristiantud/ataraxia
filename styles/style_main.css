@@ -174,7 +174,7 @@ body{
 }
 
 .card-body .card-subtitle{
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Inconsolata', monospace;
     color: #A5A5A4;
     padding-bottom: 5px;
     
@@ -189,7 +189,7 @@ body{
 }
 
 .card-body p{
-    font-family: 'Martel Sans', sans-serif;
+    font-family: 'Inconsolata', monospace;
     font-size: 17px;
     
 }
@@ -308,7 +308,7 @@ body{
 }
 
 .footer_contents p{
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Inconsolata', monospace;
     color:#cdd4db;
     margin-bottom: -10px;
     padding-top: 7px;
