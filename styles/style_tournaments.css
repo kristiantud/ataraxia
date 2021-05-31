@@ -62,10 +62,10 @@ body{
 }
 
 #card_1,#card_2,#card_3{
-    background-color: #2ECC71;
+    background-color: #5DADE2;
 }
 #card_4{
-    background-color: #5DADE2;
+    background-color:  #8E44AD;
 }
 
 
@@ -76,7 +76,7 @@ body{
 }
 
 .top_content img{
-    opacity: 0.3;
+    opacity: 0.2;
 }
 
 #card_placement{
@@ -91,7 +91,7 @@ body{
     align-items: center;
     font-family: 'Playfair Display', serif;
     font-size: 100px;
-    color: #2ECC71;
+    color: #5DADE2;
 }
 
 .posts_flexbox div{
@@ -99,7 +99,7 @@ body{
 }
 
 #card_4 h1{
-    color: #5DADE2;
+    color: #8E44AD;
 }
 
 .tournament_total_kd{
@@ -108,14 +108,28 @@ body{
     padding-bottom: 5%;
 }
 
+.card{
+    width: 18rem;
+}
+
 
 @media (max-width: 414px){ 
     #tournament_header{
-        padding-top: 6%;
+        padding-top: 10%;
+        padding-bottom: 10%;
         font-size: 40px;
     }
 
     .posts_flexbox div{
-        padding: 6%;
+        padding-bottom: 10%;
+    }
+
+    .card{
+        width: 17rem;
+    }
+
+    .post_background{
+        margin-left: 4%;
+        margin-right: 4%;
     }
 }
