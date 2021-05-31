@@ -45,8 +45,9 @@ body{
 #tournament_header{
     padding-top: 3%;
     text-align: center;
-    color: #C0C0C0;
+    color: white;
     padding-bottom: 3%;
+    font-size: 60px;
 }
 
 
@@ -99,4 +100,22 @@ body{
 
 #card_4 h1{
     color: #5DADE2;
+}
+
+.tournament_total_kd{
+    color: white;
+    text-align:center;
+    padding-bottom: 5%;
+}
+
+
+@media (max-width: 414px){ 
+    #tournament_header{
+        padding-top: 6%;
+        font-size: 40px;
+    }
+
+    .posts_flexbox div{
+        padding: 6%;
+    }
 }
