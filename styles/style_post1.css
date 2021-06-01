@@ -40,7 +40,7 @@ body{
 }
 
 .post_background{
-    background-color: #A5A4A5   ;
+    background-color: #141414   ;
     /* opacity: 90%; */
     margin-top: 2%;
     margin-left: 10%;
@@ -50,7 +50,7 @@ body{
 
 .post_header{
     padding-top: 5vh;
-    color: black;
+    color: white;
     text-align: center;
 }
 
@@ -75,14 +75,14 @@ body{
     font-size: 20px;
     margin-left: 15%;
     margin-right: 15%;
-    color: black;
+    color: white;
     text-align: justify;
     
 }
 
 .post_content img{
     width: 100%;
-    /* border: 2px solid white; */
+    border: 1.5px solid white;
 }
 
 
