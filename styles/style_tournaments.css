@@ -61,11 +61,14 @@ body{
     padding-bottom: 5%;
 }
 
-#card_1,#card_2,#card_3{
-    background-color: #5DADE2;
+#card_1,#card_2,#card_3, #card_6{
+    background-color: #33FF99;
 }
 #card_4{
-    background-color:  #8E44AD;
+    background-color:  #5DADE2;
+}
+#card_5{
+    background-color: #FF3333;
 }
 
 
@@ -91,7 +94,6 @@ body{
     align-items: center;
     font-family: 'Playfair Display', serif;
     font-size: 100px;
-    color: #5DADE2;
 }
 
 .posts_flexbox div{
@@ -99,7 +101,15 @@ body{
 }
 
 #card_4 h1{
-    color: #8E44AD;
+    color: #5DADE2;
+}
+
+#card_1 h1, #card_2 h1, #card_3 h1, #card_6 h1{
+    color: #33FF99;
+}
+
+#card_5 h1{
+    color: #FF3333;
 }
 
 .tournament_total_kd{
