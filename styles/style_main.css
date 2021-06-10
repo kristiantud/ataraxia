@@ -189,7 +189,7 @@ body{
 }
 
 .card-body p{
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Martel Sans', sans-serif;
     font-size: 17px;
     
 }
@@ -308,7 +308,7 @@ body{
 }
 
 .footer_contents p{
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Martel Sans', sans-serif;
     color:#cdd4db;
     margin-bottom: -10px;
     padding-top: 7px;
@@ -380,7 +380,7 @@ body{
         .scroll_down{
             font-size: 15px;
             text-align: center;
-            margin-top: 19vh;
+            margin-top: 30vh;
             
         }
         

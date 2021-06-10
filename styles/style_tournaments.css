@@ -1,5 +1,5 @@
 body{
-    font-family: 'Inconsolata', monospace;
+    font-family: 'Martel Sans', sans-serif;
 }
 
 
@@ -21,10 +21,10 @@ body{
 .back_to_home{
     margin-left: 5%;
     padding-top: 2%;
-    font-family: 'Inconsolata', monospace;
 }
 
 .back_to_home a{
+    font-family: 'Inconsolata', monospace;
     color: white;
     text-decoration: none;
 }
@@ -34,7 +34,7 @@ body{
 }
 
 .post_background{
-    background-color: black;
+    background-color: #010100;
     margin-top: 2%;
     margin-bottom: 2%;
     margin-left: 5%;
@@ -43,6 +43,7 @@ body{
 }
 
 #tournament_header{
+    font-family: 'Playfair Display', serif;
     padding-top: 3%;
     text-align: center;
     color: white;
@@ -67,7 +68,7 @@ body{
 #card_4{
     background-color:  #5DADE2;
 }
-#card_5{
+#card_5, #card_7{
     background-color: #FF3333;
 }
 
@@ -108,7 +109,7 @@ body{
     color: #33FF99;
 }
 
-#card_5 h1{
+#card_5 h1, #card_7 h1{
     color: #FF3333;
 }
 
