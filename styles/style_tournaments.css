@@ -51,6 +51,14 @@ body{
     font-size: 60px;
 }
 
+#total_earnings{
+    margin-top: -50px;
+    padding-bottom: 50px;
+    text-align:center;
+    color: white;
+
+}
+
 
 .posts_flexbox{
     flex-wrap: wrap;
@@ -118,6 +126,11 @@ body{
     text-align:center;
     padding-bottom: 5%;
 }
+.tournament_total_kd p{
+    font-size: 40px;
+    color: #FF3333;
+}
+
 
 .posts_flexbox .card{
     width: 18rem;
@@ -150,5 +163,12 @@ body{
 
     .posts_flexbox .top_content{
         margin-bottom: 0%;
+    }
+    .posts_flexbox .card{
+        width: 13rem;
+    }
+
+    .tournament_total_kd p{
+        font-size: 30px;
     }
 }
