@@ -52,7 +52,7 @@ body{
 }
 
 #total_earnings{
-    margin-top: -50px;
+    margin-top: -40px;
     padding-bottom: 50px;
     text-align:center;
     color: white;
@@ -146,6 +146,11 @@ body{
 
     .posts_flexbox div{
         margin-bottom: 7%;
+    }
+
+    #total_earnings{
+        margin-top: -20px;
+    
     }
 
     .card{
