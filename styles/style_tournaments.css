@@ -53,11 +53,11 @@ body{
 
 #total_earnings{
     margin-top: -40px;
-    padding-bottom: 50px;
     text-align:center;
     color: white;
-
+    padding-bottom: 50px;
 }
+
 
 
 .posts_flexbox{
