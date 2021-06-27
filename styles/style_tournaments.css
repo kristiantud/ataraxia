@@ -73,6 +73,10 @@ body{
 #card_1,#card_2,#card_3, #card_6{
     background-color: #33FF99;
 }
+
+#card_8, #card_9{
+    background-color: #F2F456;
+}
 #card_4{
     background-color:  #5DADE2;
 }
@@ -109,7 +113,7 @@ body{
     padding: 1.5%;
 }
 
-#card_4 h1{
+/* #card_4 h1{
     color: #5DADE2;
 }
 
@@ -119,6 +123,11 @@ body{
 
 #card_5 h1, #card_7 h1{
     color: #FF3333;
+} */
+
+.card h1{
+    color: white;
+    text-shadow: #000 0px 0px 20px;
 }
 
 .tournament_total_kd{
