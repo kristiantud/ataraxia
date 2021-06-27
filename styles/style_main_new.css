@@ -53,15 +53,15 @@ body{
 .title_content{
     position: relative;
     /* margin-top: 40vh; */
-    padding-top: 40vh;
+    padding-top: 30vh;
     left: 0;
     /* font-family: 'Nanum Myeongjo', serif; */
     font-family: 'Playfair Display', serif;
     text-align: center;
 }
 
-#title{
-    font-size: 90px;
+.title_content h1{
+    font-size: 120px;
     /* margin-bottom: -10px; */
     
 }
@@ -316,17 +316,17 @@ body{
 
 
         .title_content{
-            padding-top: 30vh;
+            padding-top: 23vh;
         }
         #title{
-            font-size: 60px;
+            font-size: 70px;
             margin-bottom: -20px;
         }
         
         #noun_content{
             margin-top: 30px;
             font-family: 'Martel Sans', sans-serif;
-            font-size: 15px;
+            font-size: 13px;
         }
 
         .scroll_down{
