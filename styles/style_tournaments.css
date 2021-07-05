@@ -70,18 +70,21 @@ body{
     padding-bottom: 5%;
 }
 
-#card_1,#card_2,#card_3, #card_6{
-    background-color: #33FF99;
+#card_1,#card_2,#card_3, #card_6, #card_12{
+    /* background-color: #D3D6D8; */
+    background-image: linear-gradient(to bottom, #ce210a, #F33C04,  #FE650D, #FFC11F);
 }
 
-#card_8, #card_9{
-    background-color: #F2F456;
+#card_8, #card_9, #card_10{
+    background-image: linear-gradient(to bottom, #A9EEDF, #092BD2,#093669);
 }
-#card_4{
-    background-color:  #5DADE2;
+#card_4, #card_11{
+    /* background-color:  #d4af37; */
+    background-image: linear-gradient(to bottom, #EEA9B8,#C158FD,#B600F6, #670D43);
+
 }
 #card_5, #card_7{
-    background-color: #FF3333;
+    background-image: linear-gradient(to bottom, #A0BED1, #6C856C, #2B2B40);
 }
 
 
@@ -111,6 +114,10 @@ body{
 
 .posts_flexbox div{
     padding: 1.5%;
+}
+
+.posts_flexbox .card-body{
+    color: black;
 }
 
 /* #card_4 h1{
@@ -143,6 +150,16 @@ body{
 
 .posts_flexbox .card{
     width: 18rem;
+}
+
+.posts_flexbox #tournament_type{
+    position:absolute;
+    color: white;
+    font-style: italic;
+    top: 68%;
+    left: 42%;
+    /* font-weight: bold; */
+    text-shadow: #000 0px 0px 30px;
 }
 
 
