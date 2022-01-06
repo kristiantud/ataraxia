@@ -71,20 +71,22 @@ body{
 }
 
 #card_1,#card_2,#card_3, #card_6, #card_12{
-    /* background-color: #D3D6D8; */
-    background-image: linear-gradient(to bottom, #ce210a, #F33C04,  #FE650D, #FFC11F);
+    background-color: #20d44d;
+    /* background-image: linear-gradient(to bottom, #ce210a, #F33C04,  #FE650D, #FFC11F); */
 }
 
 #card_8, #card_9, #card_10{
-    background-image: linear-gradient(to bottom, #A9EEDF, #092BD2,#093669);
+    /* background-image: linear-gradient(to bottom, #A9EEDF, #092BD2,#093669); */
+    background-color: rgb(59, 59, 255);
 }
 #card_4, #card_11{
-    /* background-color:  #d4af37; */
-    background-image: linear-gradient(to bottom, #EEA9B8,#C158FD,#B600F6, #670D43);
+    background-color:  #f7cc40;
+    /* background-image: linear-gradient(to bottom, #EEA9B8,#C158FD,#B600F6, #670D43); */
 
 }
 #card_5, #card_7{
-    background-image: linear-gradient(to bottom, #A0BED1, #6C856C, #2B2B40);
+    background-color: rgb(255, 38, 38);
+    /* background-image: linear-gradient(to bottom, #A0BED1, #6C856C, #2B2B40); */
 }
 
 
