@@ -1,0 +1,51 @@
+html,body{
+    margin:0;
+    border:0;
+    font-family: 'Martel Sans', sans-serif;
+    color:white;
+}
+
+.div_wrapper{
+    /* position:absolute;
+    top:0;
+    left:0; */
+    width: 100%;
+    height: 100%;
+    background-image: url('../post_images/montreal.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: table;
+}
+
+
+
+#title{
+    font-family: 'Playfair Display', serif;
+    font-size: 70px;
+    padding-bottom: 20px;
+}
+
+.content_container{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    /* padding: 15% 20%;
+    width: auto; */
+}
+
+.back_to_home{
+    position:absolute;
+    margin-left: 10%;
+    padding-top: 2%;
+}
+
+.back_to_home a{
+    font-family: 'Inconsolata', monospace;
+    color: white;
+    text-decoration: none;
+}
+
+.back_to_home a:hover{
+    color: gray;
+}
