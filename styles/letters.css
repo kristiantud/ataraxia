@@ -30,6 +30,7 @@ html,body{
     display: table-cell;
     vertical-align: middle;
     text-align: center;
+    padding: 0 10%;
     /* padding: 15% 20%;
     width: auto; */
 }
@@ -48,4 +49,13 @@ html,body{
 
 .back_to_home a:hover{
     color: gray;
+}
+
+@media (max-width: 700px){ 
+    html,body{
+        font-size: 13px;
+    }
+    #title{
+        font-size: 60px;
+    }
 }

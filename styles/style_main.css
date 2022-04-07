@@ -427,6 +427,9 @@ body{
             font-size: 15px;
         }
 
+        .posts_flexbox .card {
+            margin: 0;
+        } 
 
         .card-body h5{
             font-size: 30px;
