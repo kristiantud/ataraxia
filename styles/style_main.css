@@ -254,6 +254,8 @@ body{
     /* margin: 0 30px 60px 30px; */
     transition: transform .05s;
     background-color: #141414;
+    height: 200px;
+    width: 200%;
 } 
 
 
